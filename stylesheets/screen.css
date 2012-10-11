@@ -1,0 +1,207 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 35, ../sass/screen.scss */
+html, body {
+  padding: 0;
+  margin: 0; }
+
+/* line 40, ../sass/screen.scss */
+header#main.main {
+  position: relative;
+  margin: 0; }
+  /* line 44, ../sass/screen.scss */
+  header#main.main .header-content .login-button {
+    float: right;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Cabin", sans-serif; }
+    /* line 49, ../sass/screen.scss */
+    header#main.main .header-content .login-button a {
+      color: #2a2e74;
+      text-decoration: none; }
+      /* line 52, ../sass/screen.scss */
+      header#main.main .header-content .login-button a:hover {
+        text-decoration: underline; }
+  /* line 57, ../sass/screen.scss */
+  header#main.main .header-content .inner-header {
+    height: 140px;
+    width: 900px;
+    margin: 0 auto; }
+    /* line 61, ../sass/screen.scss */
+    header#main.main .header-content .inner-header .logo-container {
+      padding: 10px 30px; }
+      /* line 63, ../sass/screen.scss */
+      header#main.main .header-content .inner-header .logo-container .logo {
+        display: block;
+        float: left;
+        height: 120px;
+        width: 120px;
+        background-size: 120px 120px;
+        background-repeat: no-repeat;
+        background-image: url(../images/MVC.png); }
+      /* line 72, ../sass/screen.scss */
+      header#main.main .header-content .inner-header .logo-container .logo-text {
+        float: left;
+        display: block;
+        font-family: "Cabin", sans-serif;
+        color: #2a2e74;
+        font-size: 40px;
+        padding: 20px; }
+  /* line 83, ../sass/screen.scss */
+  header#main.main nav#main.main {
+    padding: 0px 20px;
+    background: #2a2e74;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); }
+    /* line 87, ../sass/screen.scss */
+    header#main.main nav#main.main .inner-nav {
+      width: 900px;
+      margin: 0 auto; }
+      /* line 90, ../sass/screen.scss */
+      header#main.main nav#main.main .inner-nav a.nav-link {
+        -webkit-transition: all 0.1s ease-in;
+        -moz-transition: all 0.1s ease-in;
+        -o-transition: all 0.1s ease-in;
+        transition: all 0.1s ease-in;
+        display: inline-block;
+        padding: 10px 20px;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: lighter; }
+        /* line 97, ../sass/screen.scss */
+        header#main.main nav#main.main .inner-nav a.nav-link:link, header#main.main nav#main.main .inner-nav a.nav-link:visited {
+          text-decoration: none;
+          color: white; }
+        /* line 101, ../sass/screen.scss */
+        header#main.main nav#main.main .inner-nav a.nav-link:hover {
+          background: #5256a6; }
+
+/* line 110, ../sass/screen.scss */
+div#main-content.main-content .inner-content {
+  width: 900px;
+  margin: 0 auto; }
+  /* line 113, ../sass/screen.scss */
+  div#main-content.main-content .inner-content section#sidebar {
+    float: right;
+    width: 260px;
+    padding: 30px;
+    height: 400px; }
+    /* line 118, ../sass/screen.scss */
+    div#main-content.main-content .inner-content section#sidebar .sidebar-title {
+      text-align: center;
+      font-weight: lighter;
+      font-size: 30px;
+      font-family: "Crete Round", serif; }
+  /* line 126, ../sass/screen.scss */
+  div#main-content.main-content .inner-content section#news-content {
+    width: 560px;
+    padding: 20px;
+    min-height: 300px; }
+
+/* line 136, ../sass/screen.scss */
+footer#main.main .inner-footer {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center; }
+  /* line 140, ../sass/screen.scss */
+  footer#main.main .inner-footer .links {
+    padding: 15px; }
+  /* line 143, ../sass/screen.scss */
+  footer#main.main .inner-footer .attribution {
+    font-size: 12px;
+    font-family: "Helvetica Neue", sans-serif; }
+
+/* line 150, ../sass/screen.scss */
+div.post {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666; }
+  /* line 153, ../sass/screen.scss */
+  div.post .post-title {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: "Crete Round", serif; }
+  /* line 158, ../sass/screen.scss */
+  div.post .post-info {
+    font-size: 12px;
+    font-family: "Helvetica Neue", sans-serif; }
+  /* line 162, ../sass/screen.scss */
+  div.post .post-content {
+    margin: 15px 0;
+    font-family: "Helvetica Neue", sans-serif;
+    line-height: 18px;
+    font-size: 14px; }
+    /* line 165, ../sass/screen.scss */
+    div.post .post-content img {
+      margin-bottom: 5px; }
+      /* line 167, ../sass/screen.scss */
+      div.post .post-content img.right {
+        float: right;
+        margin-left: 5px; }
+      /* line 171, ../sass/screen.scss */
+      div.post .post-content img.left {
+        margin-right: 5px; }
+    /* line 175, ../sass/screen.scss */
+    div.post .post-content p {
+      margin-bottom: 8px;
+      text-indent: 25px; }
+  /* line 180, ../sass/screen.scss */
+  div.post .post-meta {
+    margin: 5px 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px; }
